@@ -20,3 +20,71 @@ body{
 .footer-container{
     margin-bottom: -150vh;
 }
+.icon-color {
+    color: #393185; /* Change icon color */
+}
+.icon-container {
+    font-size: 30px; /* Adjust size as needed */
+}
+
+.icon-color {
+    color: #393185; /* Icon color */
+}
+.card {
+    background-color: #f8f9fa; 
+    border: 1px solid #e1e1e1; 
+    transition: transform 0.3s, box-shadow 0.3s; 
+}
+
+.card:hover {
+    transform: translateY(-5px); 
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); 
+}
+
+.icon-color {
+    color: #393185; /* Icon color */
+}
+#submitBtn {
+    background-color: #393185; /* Background color */
+    border: none; /* Remove border */
+    padding: 10px 20px; /* Add some padding for better appearance */
+    border-radius: 5px; /* Optional: Add border-radius for rounded corners */
+    color: #ffffff; /* Text color */
+}
+
+#submitBtn i {
+    color: #ffffff; /* Icon color */
+}
+
+#submitBtn:hover {
+    background-color: #2d2b6b; /* Darker shade on hover */
+}
+.form-container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.shadow {
+    box-shadow: 0px 4px 20px #16104a;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.btn-submit {
+    background-color: #16104a;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+}
+.navbar-nav .nav-link.active {
+    color: #007bff;  
+   
+}
+
+
+.navbar-nav .nav-link:hover {
+    color: #007bff; /* Color on hover */
+}
